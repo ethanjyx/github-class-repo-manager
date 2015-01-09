@@ -20,7 +20,7 @@ Manage a project-based class on GitHub! Create group repos for students to use f
 - `pip install -r requirements.txt`
 
 ## To Start App:
-- Set environment variables (run `. secret.sh`)
+- Set environment variables - run `. secret.sh` (watch out: this is NOT `./secret.sh`)
 - `foreman start`
 
 ## To Deploy App:
