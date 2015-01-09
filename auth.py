@@ -75,8 +75,7 @@ def login():
     # login endpoint redirects right to github
     session['oauth_token'] = ""
     return redirect(GITHUB_AUTH_URL+
-            "?client_id="+ CLIENT_ID +
-            "&scope=repo")
+            "?client_id="+ CLIENT_ID)
 
 @auth.route('/auth')
 def oauth(): 
